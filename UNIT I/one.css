@@ -1,0 +1,30 @@
+body{
+    background-color: red;
+    height:100vh;
+    width: 100vw;
+}
+@media screen and (min-width:768px){
+    body{
+        font-size:x-small;
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px){
+    body{
+        font-size:small;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    body{
+        font-size:medium;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1024px){
+    body{
+        font-size:large;
+    }
+}
+@media screen and (min-width:1024px) {
+    body{
+        font-size:x-large;
+    }
+}
